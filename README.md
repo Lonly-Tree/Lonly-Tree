@@ -1,16 +1,55 @@
-## Hi there 👋
+# Watch This Space.
 
-<!--
-**Lonly-Tree/Lonly-Tree** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m not here to impress you.
+I’m here to outgrow myself.
 
-Here are some ideas to get you started:
+This repository is part of a long-term journey into **Cybersecurity**,
+specifically offensive security, systems thinking, and real-world problem solving.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I’m starting where I am.
+I’m building skill by skill.
+And I’m documenting the process.
+
+No shortcuts.
+No hype.
+Just work.
+
+---
+
+## What I’m Doing
+
+- Learning cybersecurity fundamentals properly
+- Building projects instead of just consuming content
+- Studying how systems break, not just how they work
+- Getting better every single iteration
+
+---
+
+## Why This Exists
+
+Most people quit.
+Some stay average.
+A few compound.
+
+This repo is proof of consistency.
+
+You don’t need to believe me.
+Just watch the commits.
+
+---
+
+## Status
+
+🛠 **In progress**
+- Building and contributing with [Black Falcon](https://github.com/black-falcon-org)
+
+📈 **Improving**
+- AI systems, with a focus on RAG (Retrieval-Augmented Generation)
+
+⏳ **Long game**
+- Offensive Security ❤️
+
+---
+
+That’s all.  
+Thanks for your time.
