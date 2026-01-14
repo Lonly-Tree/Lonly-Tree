@@ -1,3 +1,4 @@
+
 # Watch This Space.
 
 I’m not here to impress you.
@@ -50,6 +51,20 @@ Just watch the commits.
 - Offensive Security ❤️
 
 ---
+## Technologies & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Linux-0A0A0A?style=for-the-badge&logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-0A0A0A?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-0A0A0A?style=for-the-badge&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-0A0A0A?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/APIs-0A0A0A?style=for-the-badge&logo=postman&logoColor=white"/>
+</p>
 
 That’s all.  
 Thanks for your time.
+
+
+
+
+![post man](./Postman%20-%20Postman%20API%20Fundamentals%20Student%20Expert%20-%202026-01-14.png)
+
