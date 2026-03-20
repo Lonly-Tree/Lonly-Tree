@@ -43,7 +43,7 @@
 
 ### 🧠 AI 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,langchain,opencv,scikit-learn,langgraph,ollama" />
+  <img src="https://skillicons.dev/icons?i=py" />
 </p>
 
 ### 🌐 Web Development Ecosystem
@@ -54,7 +54,7 @@
 
 **Backend Expertise:**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,py,sqlalchemy,mongodb,postgresql,mysql" />
+  <img src="https://skillicons.dev/icons?i=fastapi,py,mongodb,postgresql,mysql" />
 </p>
 
 **DevOps & Tools:**
