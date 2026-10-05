@@ -11,7 +11,6 @@
 
 <div align="center">
   
-🎓 High School Student (Expected Graduation 2026)<br/>
 📜 rag Development (cyber security Focus)<br/>
 💻 Developer with 2+ Years Experience
 
