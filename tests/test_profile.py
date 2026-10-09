@@ -105,7 +105,7 @@ def test_offline_build_svg_and_xml_escaping(tmp_path: Path) -> None:
     root = profile_folder(tmp_path)
     asyncio.run(app.build(root, offline=True))
     assets = list((root / "assets").glob("*.svg"))
-    assert len(assets) == 5
+    assert len(assets) == 17
     for asset in assets:
         ET.fromstring(asset.read_text(encoding="utf-8"))
     hero = (root / "assets/profile.svg").read_text(encoding="utf-8")

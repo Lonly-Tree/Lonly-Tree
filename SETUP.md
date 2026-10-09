@@ -25,6 +25,8 @@ python scripts/build_profile.py --offline
 
 The README uses a combined profile SVG to keep the ASCII tree and neofetch card aligned. Separate `tree.svg` and `info-card.svg` assets are also included. All artwork is generated locally, has accessible titles, and respects reduced-motion settings. The static content remains visible when CSS animation is unavailable.
 
+The project rows, about text, and certificate link also use SVG artwork so GitHub preserves the preview's colors and full-width layout. Each project row is a regular clickable link; phone layouts use separate stacked artwork. Edit these sections in `section_svgs()` inside the generator.
+
 ## Data and maintenance
 
 - Details and contact links come from your existing README; C++ comes from your public C++ repositories.

@@ -11,6 +11,7 @@ from datetime import UTC, date, timedelta
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
+from textwrap import wrap
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -244,6 +245,70 @@ def heatmap_svg(days: list[Day], username: str) -> str:
     return svg(920, 266, username + " contribution calendar", content)
 
 
+def section_svgs() -> dict[str, str]:
+    """Keep lower-profile typography consistent inside GitHub's image renderer."""
+    projects = [
+        ("rag-app", "RAG application · in development"),
+        ("task-manager", "CLI task manager with encryption · Python"),
+        ("cpp-learning-curve", "Learning C++, one exercise at a time"),
+    ]
+    about = (
+        "I build RAG applications and AI agents, work with the FastAPI stack, "
+        "and am developing my skills in cybersecurity with a focus on red teaming."
+    )
+    certificate = "Postman API Fundamentals Student Expert certificate"
+    result = {}
+    for mobile, width in [(False, 920), (True, 510)]:
+        suffix = "-mobile" if mobile else ""
+
+        def panel(height: int, title: str, body: str) -> str:
+            return (
+                f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" '
+                f'height="{height}" viewBox="0 0 {width} {height}" role="img" '
+                f'aria-labelledby="title"><title id="title">{escape(title)}</title>'
+                "<style>text{font-family:Arial,Helvetica,sans-serif}</style>"
+                f'<rect width="{width}" height="{height}" fill="#0d1117"/>'
+                f"{body}</svg>\n"
+            )
+
+        heading = (
+            '<text x="0" y="31" fill="#e3ece4" font-size="18" '
+            'style="font-family:Consolas,monospace">~/projects</text>'
+        )
+        if not mobile:
+            heading += '<rect x=".5" y="51.5" width="919" height="48" fill="#141d19" stroke="#30363d"/>'
+            heading += '<path d="M312 52V100" stroke="#30363d"/>'
+            heading += text(16, 81, "Project", 15, MUTED)
+            heading += text(328, 81, "What I'm working on", 15, MUTED)
+        result[f"projects-heading{suffix}.svg"] = panel(
+            52 if mobile else 100, "Projects", heading
+        )
+        for name, description in projects:
+            height = 88 if mobile else 52
+            row = f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" fill="none" stroke="#30363d"/>'
+            if mobile:
+                row += text(16, 30, name, 18, GREEN)
+                row += text(16, 61, description, 16)
+            else:
+                row += '<path d="M312 0V52" stroke="#30363d"/>'
+                row += text(16, 32, name, 15, GREEN)
+                row += text(328, 32, description, 15)
+            result[f"project-{name}{suffix}.svg"] = panel(
+                height, f"{name}: {description}", row
+            )
+        for name, value, color in [
+            ("about", about, MUTED),
+            ("certificate", certificate, GREEN),
+        ]:
+            lines = wrap(value, width=59 if mobile else 117)
+            content = "".join(
+                text(0, 28 + i * 26, line, 16 if mobile else 15, color)
+                for i, line in enumerate(lines)
+            )
+            result[f"{name}{suffix}.svg"] = panel(18 + len(lines) * 26, value, content)
+    return result
+
+
 def save(path: Path, content: str) -> None:
     """Replace a generated file atomically."""
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -282,6 +347,7 @@ async def build(root: Path, offline: bool = False) -> None:
             f'<g transform="translate(22 12)">{info_group(profile)}</g>',
         ),
         "contributions.svg": heatmap_svg(days, profile.username),
+        **section_svgs(),
     }
     for name, content in outputs.items():
         save(assets / name, content)
