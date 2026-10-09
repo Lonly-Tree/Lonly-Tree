@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="365" viewBox="0 0 510 365" role="img" aria-labelledby="title">
+<title id="title">RAG developer / cybersecurity</title>
+<style>
+text { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+@keyframes enter { from { opacity:0; transform:translateY(5px) } to { opacity:1; transform:translateY(0) } }
+@keyframes type { from { clip-path:inset(0 100% 0 0) } to { clip-path:inset(0 0 0 0) } }
+.reveal { animation:enter .45s ease-out both; }
+.tree-row { animation:type .25s linear both; }
+@media (prefers-reduced-motion: reduce) { .reveal,.tree-row { animation:none!important; } }
+</style>
+<rect x=".5" y=".5" width="509" height="364" rx="18" fill="#0c1512" stroke="#2b4032"/>
+<g transform="translate(22 12)"><text x="0" y="20" font-size="15" fill="#b1ec91">~/ Lonly-Tree</text><text x="0" y="70" font-size="36" fill="#e3ece4">Hi, I&#x27;m Abdo.</text><text x="0" y="103" font-size="16" fill="#90a99a">RAG developer / cybersecurity</text><path d="M0 126H465" stroke="#2b4032"/><g class="reveal" style="animation-delay:0.30s"><text x="0" y="157" font-size="11" fill="#b1ec91">BUILD</text><text x="104" y="157" font-size="14" fill="#e3ece4">RAG apps + AI agents</text></g><g class="reveal" style="animation-delay:0.43s"><text x="0" y="186" font-size="11" fill="#b1ec91">BACKEND</text><text x="104" y="186" font-size="14" fill="#e3ece4">Python / FastAPI</text></g><g class="reveal" style="animation-delay:0.56s"><text x="0" y="215" font-size="11" fill="#b1ec91">WEB</text><text x="104" y="215" font-size="14" fill="#e3ece4">HTML / CSS / JS / Bootstrap</text></g><g class="reveal" style="animation-delay:0.69s"><text x="0" y="244" font-size="11" fill="#b1ec91">DATA</text><text x="104" y="244" font-size="14" fill="#e3ece4">MongoDB / PostgreSQL / MySQL</text></g><g class="reveal" style="animation-delay:0.82s"><text x="0" y="273" font-size="11" fill="#b1ec91">TOOLS</text><text x="104" y="273" font-size="14" fill="#e3ece4">Git / GitHub / AWS</text></g><g class="reveal" style="animation-delay:0.95s"><text x="0" y="302" font-size="11" fill="#b1ec91">LEARNING</text><text x="104" y="302" font-size="14" fill="#e3ece4">C++ / red teaming</text></g></g>
+</svg>

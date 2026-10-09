@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="477" viewBox="0 0 920 477" role="img" aria-labelledby="title">
+<title id="title">Lonly-Tree — RAG developer / cybersecurity</title>
+<style>
+text { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+@keyframes enter { from { opacity:0; transform:translateY(5px) } to { opacity:1; transform:translateY(0) } }
+@keyframes type { from { clip-path:inset(0 100% 0 0) } to { clip-path:inset(0 0 0 0) } }
+.reveal { animation:enter .45s ease-out both; }
+.tree-row { animation:type .25s linear both; }
+@media (prefers-reduced-motion: reduce) { .reveal,.tree-row { animation:none!important; } }
+</style>
+<rect x=".5" y=".5" width="919" height="476" rx="18" fill="#0c1512" stroke="#2b4032"/>
+<path d="M1 46H919" stroke="#2b4032"/><circle cx="25" cy="24" r="4" fill="#cf866f"/><circle cx="43" cy="24" r="4" fill="#c3b579"/><circle cx="61" cy="24" r="4" fill="#86b980"/><text x="91" y="29" font-size="12" fill="#90a99a">lonly-tree@github: ~ / whoami</text><text x="784" y="29" font-size="11" fill="#90a99a">PROFILE / 01</text><g transform="translate(30 93)"><g class="tree-row" style="animation-delay:0.000s"><text x="20" y="25" xml:space="preserve" font-size="12" fill="#b1ec91">                    .</text></g>
+<g class="tree-row" style="animation-delay:0.065s"><text x="20" y="37" xml:space="preserve" font-size="12" fill="#b1ec91">                   /|\</text></g>
+<g class="tree-row" style="animation-delay:0.130s"><text x="20" y="49" xml:space="preserve" font-size="12" fill="#b1ec91">                 .::|::.</text></g>
+<g class="tree-row" style="animation-delay:0.195s"><text x="20" y="61" xml:space="preserve" font-size="12" fill="#b1ec91">               .::**|**::.</text></g>
+<g class="tree-row" style="animation-delay:0.260s"><text x="20" y="73" xml:space="preserve" font-size="12" fill="#b1ec91">              .:**/ | \**:.</text></g>
+<g class="tree-row" style="animation-delay:0.325s"><text x="20" y="85" xml:space="preserve" font-size="12" fill="#b1ec91">            .:**/  /|\  \**:.</text></g>
+<g class="tree-row" style="animation-delay:0.390s"><text x="20" y="97" xml:space="preserve" font-size="12" fill="#b1ec91">          .::**   / | \   **::.</text></g>
+<g class="tree-row" style="animation-delay:0.455s"><text x="20" y="109" xml:space="preserve" font-size="12" fill="#b1ec91">             / .:* /|\ *:. \</text></g>
+<g class="tree-row" style="animation-delay:0.520s"><text x="20" y="121" xml:space="preserve" font-size="12" fill="#b1ec91">           .::*  /  |  \  *::.</text></g>
+<g class="tree-row" style="animation-delay:0.585s"><text x="20" y="133" xml:space="preserve" font-size="12" fill="#b1ec91">         .::**  /  /|\  \  **::.</text></g>
+<g class="tree-row" style="animation-delay:0.650s"><text x="20" y="145" xml:space="preserve" font-size="12" fill="#b1ec91">       .::**   /  / | \  \   **::.</text></g>
+<g class="tree-row" style="animation-delay:0.715s"><text x="20" y="157" xml:space="preserve" font-size="12" fill="#b1ec91">          / .:*  /  |  \  *:. \</text></g>
+<g class="tree-row" style="animation-delay:0.780s"><text x="20" y="169" xml:space="preserve" font-size="12" fill="#b1ec91">        .::*   /   /|\   \   *::.</text></g>
+<g class="tree-row" style="animation-delay:0.845s"><text x="20" y="181" xml:space="preserve" font-size="12" fill="#b1ec91">      .::**   /   / | \   \   **::.</text></g>
+<g class="tree-row" style="animation-delay:0.910s"><text x="20" y="193" xml:space="preserve" font-size="12" fill="#b1ec91">    .::**    /   /  |  \   \    **::.</text></g>
+<g class="tree-row" style="animation-delay:0.975s"><text x="20" y="205" xml:space="preserve" font-size="12" fill="#b1ec91">   &#x27;--------&#x27;---&#x27;---|---&#x27;---&#x27;--------&#x27;</text></g>
+<g class="tree-row" style="animation-delay:1.040s"><text x="20" y="217" xml:space="preserve" font-size="12" fill="#b1ec91">                  |||</text></g>
+<g class="tree-row" style="animation-delay:1.105s"><text x="20" y="229" xml:space="preserve" font-size="12" fill="#b1ec91">                  |||</text></g>
+<g class="tree-row" style="animation-delay:1.170s"><text x="20" y="241" xml:space="preserve" font-size="12" fill="#b1ec91">                  |||</text></g>
+<g class="tree-row" style="animation-delay:1.235s"><text x="20" y="253" xml:space="preserve" font-size="12" fill="#b1ec91">                __|||__</text></g>
+<g class="tree-row" style="animation-delay:1.300s"><text x="20" y="265" xml:space="preserve" font-size="12" fill="#b1ec91">             __/  /|\  \__</text></g>
+<g class="tree-row" style="animation-delay:1.365s"><text x="20" y="277" xml:space="preserve" font-size="12" fill="#b1ec91">          __/____/ | \____\__</text></g></g><path d="M401 83V402" stroke="#2b4032"/><g transform="translate(431 78)"><text x="0" y="20" font-size="15" fill="#b1ec91">~/ Lonly-Tree</text><text x="0" y="70" font-size="36" fill="#e3ece4">Hi, I&#x27;m Abdo.</text><text x="0" y="103" font-size="16" fill="#90a99a">RAG developer / cybersecurity</text><path d="M0 126H465" stroke="#2b4032"/><g class="reveal" style="animation-delay:0.30s"><text x="0" y="157" font-size="11" fill="#b1ec91">BUILD</text><text x="104" y="157" font-size="14" fill="#e3ece4">RAG apps + AI agents</text></g><g class="reveal" style="animation-delay:0.43s"><text x="0" y="186" font-size="11" fill="#b1ec91">BACKEND</text><text x="104" y="186" font-size="14" fill="#e3ece4">Python / FastAPI</text></g><g class="reveal" style="animation-delay:0.56s"><text x="0" y="215" font-size="11" fill="#b1ec91">WEB</text><text x="104" y="215" font-size="14" fill="#e3ece4">HTML / CSS / JS / Bootstrap</text></g><g class="reveal" style="animation-delay:0.69s"><text x="0" y="244" font-size="11" fill="#b1ec91">DATA</text><text x="104" y="244" font-size="14" fill="#e3ece4">MongoDB / PostgreSQL / MySQL</text></g><g class="reveal" style="animation-delay:0.82s"><text x="0" y="273" font-size="11" fill="#b1ec91">TOOLS</text><text x="104" y="273" font-size="14" fill="#e3ece4">Git / GitHub / AWS</text></g><g class="reveal" style="animation-delay:0.95s"><text x="0" y="302" font-size="11" fill="#b1ec91">LEARNING</text><text x="104" y="302" font-size="14" fill="#e3ece4">C++ / red teaming</text></g></g><path d="M26 422H894" stroke="#2b4032"/><text x="30" y="452" font-size="12" fill="#90a99a">Rooted in curiosity. Growing through code.</text><text x="754" y="452" font-size="12" fill="#b1ec91">./keep-growing</text>
+</svg>

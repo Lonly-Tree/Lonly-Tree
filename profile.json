@@ -1,0 +1,14 @@
+{
+  "username": "Lonly-Tree",
+  "name": "Abdo",
+  "headline": "RAG developer / cybersecurity",
+  "rows": [
+    ["BUILD", "RAG apps + AI agents"],
+    ["BACKEND", "Python / FastAPI"],
+    ["WEB", "HTML / CSS / JS / Bootstrap"],
+    ["DATA", "MongoDB / PostgreSQL / MySQL"],
+    ["TOOLS", "Git / GitHub / AWS"],
+    ["LEARNING", "C++ / red teaming"]
+  ],
+  "tagline": "Rooted in curiosity. Growing through code."
+}
